@@ -1,7 +1,7 @@
 openapi: "3.0.0"
 info:
   description: eMenu service
-  version: "1.0.0"
+  version: "1.5.0"
   title: eseMenu.com webApi server
 servers:
   - url: https://us-central1-menusincontacto.cloudfunctions.net
@@ -43,6 +43,7 @@ components:
         taxes:
           description: A string list of the taxes included in the price (IVA, IS)
           type: string
+          example: IVA + I.S incluidos
     Menu:
       type: object
       required: 
@@ -53,6 +54,7 @@ components:
         - template
         - type
         - startTime
+        - sections
       properties:
         id:
           type: integer
@@ -68,6 +70,7 @@ components:
         headerImg:
           type: string
           description: URL to the menu header
+          example: https://esemenu.com/assets/img/icon-white-nobg.png
         endTime:
           type: string
           format: hour
@@ -96,6 +99,7 @@ components:
       required: 
         - name
         - isAvailable
+        - foods
       properties:
         name:
           type: string
@@ -114,9 +118,12 @@ components:
         - isAvailable
         - description
         - price
+        - modifierSections
       properties:
         img:
           type: string
+          description: URL to the food img
+          example: https://esemenu.com/assets/img/icon-color-nobg.png
         name:
           type: string
         isAvailable:
@@ -125,7 +132,7 @@ components:
           type: string
         price:
           $ref: "#/components/schemas/Price"
-        modifiers:
+        modifierSections:
           type: array
           items:
             $ref: "#/components/schemas/ModifierSection"
