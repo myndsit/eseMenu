@@ -1,0 +1,275 @@
+openapi: "3.0.0"
+info:
+  description: eMenu service
+  version: "1.0.0"
+  title: eseMenu.com webApi server
+servers:
+  - url: https://us-central1-menusincontacto.cloudfunctions.net
+
+components:
+  requestBodies:
+    menuUpdate:
+      description: The command
+      required: true
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/Menu'
+    photoBody:
+      description: The command
+      required: true
+      content:
+        application/json:
+          schema:
+            type: object
+            properties:
+              result:
+                type: string
+                description: Either the status or the link for the new img
+  schemas:
+    Price:
+      type: object
+      required:
+        - currency
+        - ammount
+        - taxes
+      properties:
+        currency:
+          type: string
+          enum: [USD,CRC]
+        ammount:
+          description: The final price for the product without modifiers
+          type: number
+        taxes:
+          description: A string list of the taxes included in the price (IVA, IS)
+          type: string
+    Menu:
+      type: object
+      required: 
+        - name
+        - isMain
+        - isDark
+        - headerImg
+        - template
+        - type
+        - startTime
+      properties:
+        id:
+          type: integer
+        name:
+          type: string
+          description: Name of the menu
+        isMain:
+          type: boolean
+          description: true if this is the main menu
+        isDark:
+          type: boolean
+          description: true if we want this menu to use the dark theme  
+        headerImg:
+          type: string
+          description: URL to the menu header
+        endTime:
+          type: string
+          format: hour
+          description: Hour of the day for this menu to be de-activated
+          example: "11:00"
+        template:
+          type: string
+          enum: [DEFAULT]
+          description: the actual UI template to use
+        type:
+          type: string
+          enum: [WEB, PDF]
+          description: the type of menu display to use
+        startTime:
+          type: string
+          format: hour
+          description: Hour of the day for this menu to be activated
+          example: "11:00"
+        sections:
+          description: sections contained in this menu
+          type: array
+          items:
+            $ref: "#/components/schemas/Section"
+    Section:
+      type: object
+      required: 
+        - name
+        - isAvailable
+      properties:
+        name:
+          type: string
+        isAvailable:
+          type: boolean
+        footerTxt:
+          type: string
+        foods:
+          type: array
+          items:
+            $ref: "#/components/schemas/Food"
+    Food:
+      type: object
+      required:
+        - name
+        - isAvailable
+        - description
+        - price
+      properties:
+        img:
+          type: string
+        name:
+          type: string
+        isAvailable:
+          type: boolean
+        description:
+          type: string
+        price:
+          $ref: "#/components/schemas/Price"
+        modifiers:
+          type: array
+          items:
+            $ref: "#/components/schemas/ModifierSection"
+    ModifierSection:
+      type: object
+      required:
+        - isAvailable
+        - name
+        - modifiers
+      properties:
+        name:
+          type: string
+        description:
+          type: string
+        isAvailable:
+          type: boolean
+        modifiers:
+          type: array
+          items:
+            $ref: "#/components/schemas/Modifier"
+    Modifier:
+      type: object
+      required:
+        - isAvailable
+        - name
+        - price
+      properties:
+        isAvailable:
+          type: boolean
+        name:
+          type: string
+        description:
+          type: string
+        price:
+          $ref: "#/components/schemas/Price"
+
+  parameters:
+    apikey:
+      name: apikey
+      in: header
+      description: The authorization header for the restaurant
+      required: true
+      schema:
+        type: string
+    imageUrl:
+      name: imageUrl
+      in: header
+      description: The url for an image hosted in our servers
+      required: true
+      schema:
+        type: string
+# Paths supported by the server application
+paths:
+  /menu:
+    put:
+      operationId: "menu.put"
+      tags:
+        - "Menu"
+      summary: "Update an specific menu for a restaurant"
+      description: "Updates an specific menu for a restaurant, this will trigger an update on all the clients connected to that menu"
+      parameters:
+        - $ref: "#/components/parameters/apikey"
+      requestBody:
+        $ref: "#/components/requestBodies/menuUpdate"
+      responses:
+        "200":
+          description: "Successful."
+        "400":
+         description: "Bad request."
+        "404":
+          description: "Not found."
+        "500":
+          description: "Internal error."
+    get:
+      operationId: "menu.get"
+      tags:
+        - "Menu"
+      summary: "Get a list of the menus of this restaurant"
+      description: "Returns a list of the menus for this rest"
+      parameters:
+        - $ref: "#/components/parameters/apikey"
+      responses:
+        "200":
+          description: "Successful."
+        "400":
+         description: "Bad request."
+        "404":
+          description: "Not found."
+        "500":
+          description: "Internal error."
+    post:
+      operationId: "menu.post"
+      tags:
+        - "Menu"
+      summary: "Create a new menu for a restaurant"
+      description: "Creates a new menu for a restaurant"
+      parameters:
+        - $ref: "#/components/parameters/apikey"
+      requestBody:
+        $ref: "#/components/requestBodies/menuUpdate"
+      responses:
+        "200":
+          description: "Successful."
+        "400":
+         description: "Bad request."
+        "404":
+          description: "Not found."
+        "500":
+          description: "Internal error."
+  /photo:
+    post:
+      operationId: "photo.post"
+      tags:
+        - "Photo"
+      summary: "Create a new photo for a restaurant"
+      description: "Creates a new photo for a restaurant and returns its link"
+      parameters:
+        - $ref: "#/components/parameters/apikey"
+      requestBody:
+        $ref: "#/components/requestBodies/photoBody"
+      responses:
+        "200":
+          description: "Successful."
+        "400":
+         description: "Bad request."
+        "404":
+          description: "Not found."
+        "500":
+          description: "Internal error."
+    delete:
+      operationId: "photo.delete"
+      tags:
+        - "Photo"
+      summary: "Delete a new photo for a restaurant"
+      description: "Deletes a new photo for a restaurant and returns the status of the deletion"
+      parameters:
+        - $ref: "#/components/parameters/apikey"
+        - $ref: "#/components/parameters/imageUrl"
+      responses:
+        "200":
+          description: "Successful."
+        "400":
+         description: "Bad request."
+        "404":
+          description: "Not found."
+        "500":
+          description: "Internal error."
