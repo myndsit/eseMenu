@@ -1,0 +1,1754 @@
+{
+    "name": "Principal",
+    "endTime": "00:00",
+    "headerImg": "https://scontent.fsjo13-1.fna.fbcdn.net/v/t1.0-9/123648529_667231953989807_5848559850487594537_n.jpg?_nc_cat=111&ccb=2&_nc_sid=730e14&_nc_ohc=tLN1Zf5OaTgAX-Ik8vm&_nc_oc=AQmlzm2UCps-hDUTNFP52FIRdDbV4oEs37PZUA7IQZStC4sY5gBpFJZlkRY6XIUloJ0&_nc_ht=scontent.fsjo13-1.fna&oh=35cc50b109c2e0277d0f750a5fc5a144&oe=5FE1C539",
+    "timestamp": "",
+    "template": "DEFAULT",
+    "isMain": true,
+    "sections": [
+        {
+            "name": "Pizzas",
+            "isAvailable": true,
+            "foods": [
+                {
+                    "img":"https://media-cdn.tripadvisor.com/media/photo-s/10/1d/12/b7/pizza-de-jamon-con-queso.jpg",
+                    "isAvailable": true,
+                    "ingredients": "Queso, jamon y salsa de pizza",
+                    "description":null,
+                    "name": "Jamón y queso",
+                    "price": {
+                        "ammount": "",
+                        "taxes": "Precio acorde al tamano",
+                        "currency": ""
+                    },
+                    "modifierSections": [
+                        {
+                            "modifiers": [
+                                {
+                                    "name": "Personal",
+                                    "price": {
+                                        "ammount": "1500",
+                                        "taxes": "",
+                                        "currency": "CRC"
+                                    },
+                                    "description": "(4 Slices)",
+                                    "isAvailable": true
+                                },
+                                {
+                                    "name": "Pequeña",
+                                    "price": {
+                                        "taxes": "",
+                                        "currency": "CRC",
+                                        "ammount": "3300"
+                                    },
+                                    "description": "(6 slices)"
+                                },
+                                {
+                                    "name": "Mediana",
+                                    "description": "(8 Slices)",
+                                    "isAvailable": true,
+                                    "price": {
+                                        "currency": "CRC",
+                                        "ammount": "6000",
+                                        "taxes": ""
+                                    }
+                                },
+                                {
+                                    "isAvailable": true,
+                                    "description": "(12 Slices)",
+                                    "name": "Grande",
+                                    "price": {
+                                        "ammount": "7000",
+                                        "currency": "CRC",
+                                        "taxes": ""
+                                    }
+                                },
+                                {
+                                    "price": {
+                                        "taxes": "",
+                                        "currency": "CRC",
+                                        "ammount": "9000"
+                                    },
+                                    "name": "Extra grande",
+                                    "description": "(16 slices)"
+                                },
+                                {
+                                    "isAvailable": true,
+                                    "name": "Familiar",
+                                    "price": {
+                                        "currency": "CRC",
+                                        "taxes": "",
+                                        "ammount": "10800"
+                                    },
+                                    "description": "(20 slices)"
+                                }
+                            ],
+                            "isAvailable": true,
+                            "name": "Tamaños",
+                            "description": ""
+                        }
+                    ]
+                },
+                {
+                    "img":"https://www.recipetineats.com/wp-content/uploads/2020/05/Pepperoni-Pizza_5-SQjpg.jpg",
+                    "isAvailable": true,
+                    "ingredients": "Pepperoni y salsa de pizza",
+                    "description":null,
+                    "name": "Pepperoni",
+                    "price": {
+                        "ammount": "",
+                        "taxes": "Precio acorde al tamano",
+                        "currency": ""
+                    },
+                    "modifierSections": [
+                        {
+                            "modifiers": [
+                                {
+                                    "name": "Personal",
+                                    "price": {
+                                        "ammount": "2400",
+                                        "taxes": "",
+                                        "currency": "CRC"
+                                    },
+                                    "description": "(4 Slices)",
+                                    "isAvailable": true
+                                },
+                                {
+                                    "name": "Pequeña",
+                                    "price": {
+                                        "taxes": "",
+                                        "currency": "CRC",
+                                        "ammount": "3300"
+                                    },
+                                    "description": "(6 slices)"
+                                },
+                                {
+                                    "name": "Mediana",
+                                    "description": "(8 Slices)",
+                                    "isAvailable": true,
+                                    "price": {
+                                        "currency": "CRC",
+                                        "ammount": "6800",
+                                        "taxes": ""
+                                    }
+                                },
+                                {
+                                    "isAvailable": true,
+                                    "description": "(12 Slices)",
+                                    "name": "Grande",
+                                    "price": {
+                                        "ammount": "7600",
+                                        "currency": "CRC",
+                                        "taxes": ""
+                                    }
+                                },
+                                {
+                                    "price": {
+                                        "taxes": "",
+                                        "currency": "CRC",
+                                        "ammount": "9800"
+                                    },
+                                    "name": "Extra grande",
+                                    "description": "(16 slices)"
+                                },
+                                {
+                                    "isAvailable": true,
+                                    "name": "Familiar",
+                                    "price": {
+                                        "currency": "CRC",
+                                        "taxes": "",
+                                        "ammount": "11000"
+                                    },
+                                    "description": "(20 slices)"
+                                }
+                            ],
+                            "isAvailable": true,
+                            "name": "Tamaños",
+                            "description": ""
+                        }
+                    ]
+                },
+                {
+                    "img":"https://d1ralsognjng37.cloudfront.net/27cfb875-bcdd-4ffe-84b9-bce7d906fefb",
+                    "isAvailable": true,
+                    "ingredients": "Jamon, Salami, Cebolla, Chile y Queso",
+                    "name": "Caprichosa",
+                    "description":null,
+                    "price": {
+                        "ammount": "",
+                        "taxes": "",
+                        "currency": ""
+                    },
+                    "modifierSections": [
+                        {
+                            "modifiers": [
+                                {
+                                    "name": "Personal",
+                                    "price": {
+                                        "ammount": "2600",
+                                        "taxes": "",
+                                        "currency": "CRC"
+                                    },
+                                    "description": "(4 Slices)",
+                                    "isAvailable": true
+                                },
+                                {
+                                    "name": "Pequeña",
+                                    "price": {
+                                        "taxes": "",
+                                        "currency": "CRC",
+                                        "ammount": "4000"
+                                    },
+                                    "description": "(6 slices)"
+                                },
+                                {
+                                    "name": "Mediana",
+                                    "description": "(8 Slices)",
+                                    "isAvailable": true,
+                                    "price": {
+                                        "currency": "CRC",
+                                        "ammount": "7200",
+                                        "taxes": ""
+                                    }
+                                },
+                                {
+                                    "isAvailable": true,
+                                    "description": "(12 Slices)",
+                                    "name": "Grande",
+                                    "price": {
+                                        "ammount": "8600",
+                                        "currency": "CRC",
+                                        "taxes": ""
+                                    }
+                                },
+                                {
+                                    "isAvailable": true,
+                                    "name": "Extra grande",
+                                    "description": "(16 slices)",
+                                    "price": {
+                                        "taxes": "",
+                                        "currency": "CRC",
+                                        "ammount": "10000"
+                                    }
+                                },
+                                {
+                                    "isAvailable": true,
+                                    "name": "Familiar",
+                                    "description": "(20 slices)",
+                                    "price": {
+                                        "currency": "CRC",
+                                        "taxes": "",
+                                        "ammount": "12000"
+                                    }
+                                }
+                            ],
+                            "isAvailable": true,
+                            "name": "Tamaños",
+                            "description": ""
+                        }
+                    ]
+                },
+                {
+                    "img":"https://i.pinimg.com/originals/a2/36/ec/a236ec3cbac70b231174be72e5d96b3c.jpg",
+                    "isAvailable": true,
+                    "ingredients": "Jamon, Salami, Hongos y Queso",
+                    "name": "Hongonada",
+                    "description":null,
+                    "price": {
+                        "ammount": "",
+                        "taxes": "",
+                        "currency": ""
+                    },
+                    "modifierSections": [
+                        {
+                            "modifiers": [
+                                {
+                                    "name": "Personal",
+                                    "price": {
+                                        "ammount": "2600",
+                                        "taxes": "",
+                                        "currency": "CRC"
+                                    },
+                                    "description": "(4 Slices)",
+                                    "isAvailable": true
+                                },
+                                {
+                                    "name": "Pequeña",
+                                    "price": {
+                                        "taxes": "",
+                                        "currency": "CRC",
+                                        "ammount": "4000"
+                                    },
+                                    "description": "(6 slices)"
+                                },
+                                {
+                                    "name": "Mediana",
+                                    "description": "(8 Slices)",
+                                    "isAvailable": true,
+                                    "price": {
+                                        "currency": "CRC",
+                                        "ammount": "7200",
+                                        "taxes": ""
+                                    }
+                                },
+                                {
+                                    "isAvailable": true,
+                                    "description": "(12 Slices)",
+                                    "name": "Grande",
+                                    "price": {
+                                        "ammount": "8600",
+                                        "currency": "CRC",
+                                        "taxes": ""
+                                    }
+                                },
+                                {
+                                    "isAvailable": true,
+                                    "name": "Extra grande",
+                                    "description": "(16 slices)",
+                                    "price": {
+                                        "taxes": "",
+                                        "currency": "CRC",
+                                        "ammount": "10000"
+                                    }
+                                },
+                                {
+                                    "isAvailable": true,
+                                    "name": "Familiar",
+                                    "description": "(20 slices)",
+                                    "price": {
+                                        "currency": "CRC",
+                                        "taxes": "",
+                                        "ammount": "12000"
+                                    }
+                                }
+                            ],
+                            "isAvailable": true,
+                            "name": "Tamaños",
+                            "description": ""
+                        }
+                    ]
+                },
+                {
+                    "img":"https://www.liveeatlearn.com/wp-content/uploads/2019/08/veggie-pizza-photo-vert-500x500.jpg",
+                    "isAvailable": true,
+                    "ingredients": "Cebolla, queso, tomate, chile y hongos",
+                    "name": "Vegetariana",
+                    "description":null,
+                    "price": {
+                        "ammount": "",
+                        "taxes": "",
+                        "currency": ""
+                    },
+                    "modifierSections": [
+                        {
+                            "modifiers": [
+                                {
+                                    "name": "Personal",
+                                    "price": {
+                                        "ammount": "2600",
+                                        "taxes": "",
+                                        "currency": "CRC"
+                                    },
+                                    "description": "(4 Slices)",
+                                    "isAvailable": true
+                                },
+                                {
+                                    "name": "Pequeña",
+                                    "price": {
+                                        "taxes": "",
+                                        "currency": "CRC",
+                                        "ammount": "4000"
+                                    },
+                                    "description": "(6 slices)"
+                                },
+                                {
+                                    "name": "Mediana",
+                                    "description": "(8 Slices)",
+                                    "isAvailable": true,
+                                    "price": {
+                                        "currency": "CRC",
+                                        "ammount": "7200",
+                                        "taxes": ""
+                                    }
+                                },
+                                {
+                                    "isAvailable": true,
+                                    "description": "(12 Slices)",
+                                    "name": "Grande",
+                                    "price": {
+                                        "ammount": "8600",
+                                        "currency": "CRC",
+                                        "taxes": ""
+                                    }
+                                },
+                                {
+                                    "isAvailable": true,
+                                    "name": "Extra grande",
+                                    "description": "(16 slices)",
+                                    "price": {
+                                        "taxes": "",
+                                        "currency": "CRC",
+                                        "ammount": "10000"
+                                    }
+                                },
+                                {
+                                    "isAvailable": true,
+                                    "name": "Familiar",
+                                    "description": "(20 slices)",
+                                    "price": {
+                                        "currency": "CRC",
+                                        "taxes": "",
+                                        "ammount": "12000"
+                                    }
+                                }
+                            ],
+                            "isAvailable": true,
+                            "name": "Tamaños",
+                            "description": ""
+                        }
+                    ]
+                },
+                {
+                    "img":"https://media-cdn.tripadvisor.com/media/photo-s/12/44/4a/53/pizza-le-collezioni-hecho.jpg",
+                    "isAvailable": true,
+                    "ingredients": "Jamon, Salami, Tocineta, Hongos, Chile, Cebolla y Queso",
+                    "name": "Tocineta",
+                    "description":null,
+                    "price": {
+                        "ammount": "",
+                        "taxes": "",
+                        "currency": ""
+                    },
+                    "modifierSections": [
+                        {
+                            "modifiers": [
+                                {
+                                    "name": "Personal",
+                                    "price": {
+                                        "ammount": "2600",
+                                        "taxes": "",
+                                        "currency": "CRC"
+                                    },
+                                    "description": "(4 Slices)",
+                                    "isAvailable": true
+                                },
+                                {
+                                    "name": "Pequeña",
+                                    "price": {
+                                        "taxes": "",
+                                        "currency": "CRC",
+                                        "ammount": "4000"
+                                    },
+                                    "description": "(6 slices)"
+                                },
+                                {
+                                    "name": "Mediana",
+                                    "description": "(8 Slices)",
+                                    "isAvailable": true,
+                                    "price": {
+                                        "currency": "CRC",
+                                        "ammount": "7200",
+                                        "taxes": ""
+                                    }
+                                },
+                                {
+                                    "isAvailable": true,
+                                    "description": "(12 Slices)",
+                                    "name": "Grande",
+                                    "price": {
+                                        "ammount": "8600",
+                                        "currency": "CRC",
+                                        "taxes": ""
+                                    }
+                                },
+                                {
+                                    "isAvailable": true,
+                                    "name": "Extra grande",
+                                    "description": "(16 slices)",
+                                    "price": {
+                                        "taxes": "",
+                                        "currency": "CRC",
+                                        "ammount": "10000"
+                                    }
+                                },
+                                {
+                                    "isAvailable": true,
+                                    "name": "Familiar",
+                                    "description": "(20 slices)",
+                                    "price": {
+                                        "currency": "CRC",
+                                        "taxes": "",
+                                        "ammount": "12000"
+                                    }
+                                }
+                            ],
+                            "isAvailable": true,
+                            "name": "Tamaños",
+                            "description": ""
+                        }
+                    ]
+                },
+                {
+                    "img":"https://prods3.imgix.net/images/articles/2017_05/Facebook-hawaiian-pizza-origins.jpg",
+                    "isAvailable": true,
+                    "ingredients": "Jamon, Salami, Hongos, Pina, Queso",
+                    "name": "Hawaiana",
+                    "description":null,
+                    "price": {
+                        "ammount": "",
+                        "taxes": "",
+                        "currency": ""
+                    },
+                    "modifierSections": [
+                        {
+                            "modifiers": [
+                                {
+                                    "name": "Personal",
+                                    "price": {
+                                        "ammount": "2600",
+                                        "taxes": "",
+                                        "currency": "CRC"
+                                    },
+                                    "description": "(4 Slices)",
+                                    "isAvailable": true
+                                },
+                                {
+                                    "name": "Pequeña",
+                                    "price": {
+                                        "taxes": "",
+                                        "currency": "CRC",
+                                        "ammount": "4000"
+                                    },
+                                    "description": "(6 slices)"
+                                },
+                                {
+                                    "name": "Mediana",
+                                    "description": "(8 Slices)",
+                                    "isAvailable": true,
+                                    "price": {
+                                        "currency": "CRC",
+                                        "ammount": "7200",
+                                        "taxes": ""
+                                    }
+                                },
+                                {
+                                    "isAvailable": true,
+                                    "description": "(12 Slices)",
+                                    "name": "Grande",
+                                    "price": {
+                                        "ammount": "8600",
+                                        "currency": "CRC",
+                                        "taxes": ""
+                                    }
+                                },
+                                {
+                                    "isAvailable": true,
+                                    "name": "Extra grande",
+                                    "description": "(16 slices)",
+                                    "price": {
+                                        "taxes": "",
+                                        "currency": "CRC",
+                                        "ammount": "10000"
+                                    }
+                                },
+                                {
+                                    "isAvailable": true,
+                                    "name": "Familiar",
+                                    "description": "(20 slices)",
+                                    "price": {
+                                        "currency": "CRC",
+                                        "taxes": "",
+                                        "ammount": "12000"
+                                    }
+                                }
+                            ],
+                            "isAvailable": true,
+                            "name": "Tamaños",
+                            "description": ""
+                        }
+                    ]
+                },
+                {
+                    "img":"https://lh3.googleusercontent.com/proxy/2jLy6AKwlJm_qSR-IgziedP4EuTP2j3kUZ6gxYfdDwqYUbooudX6RyG8WkXmyHdvXrOFpjfs4olq66e86jA1tvknKHv5FDSxwaGBYTC_sIYeT4gs1hkZzmcNftleTa6vMNkrqRmt",
+                    "isAvailable": true,
+                    "ingredients": "Jamon, Salami, Tocineta y Queso",
+                    "name": "Suprema",
+                    "description":null,
+                    "price": {
+                        "ammount": "",
+                        "taxes": "",
+                        "currency": ""
+                    },
+                    "modifierSections": [
+                        {
+                            "modifiers": [
+                                {
+                                    "name": "Personal",
+                                    "price": {
+                                        "ammount": "3000",
+                                        "taxes": "",
+                                        "currency": "CRC"
+                                    },
+                                    "description": "(4 Slices)",
+                                    "isAvailable": true
+                                },
+                                {
+                                    "name": "Pequeña",
+                                    "price": {
+                                        "taxes": "",
+                                        "currency": "CRC",
+                                        "ammount": "4300"
+                                    },
+                                    "description": "(6 slices)"
+                                },
+                                {
+                                    "name": "Mediana",
+                                    "description": "(8 Slices)",
+                                    "isAvailable": true,
+                                    "price": {
+                                        "currency": "CRC",
+                                        "ammount": "8200",
+                                        "taxes": ""
+                                    }
+                                },
+                                {
+                                    "isAvailable": true,
+                                    "description": "(12 Slices)",
+                                    "name": "Grande",
+                                    "price": {
+                                        "ammount": "9200",
+                                        "currency": "CRC",
+                                        "taxes": ""
+                                    }
+                                },
+                                {
+                                    "isAvailable": true,
+                                    "name": "Extra grande",
+                                    "description": "(16 slices)",
+                                    "price": {
+                                        "taxes": "",
+                                        "currency": "CRC",
+                                        "ammount": "11000"
+                                    }
+                                },
+                                {
+                                    "isAvailable": true,
+                                    "name": "Familiar",
+                                    "description": "(20 slices)",
+                                    "price": {
+                                        "currency": "CRC",
+                                        "taxes": "",
+                                        "ammount": "13200"
+                                    }
+                                }
+                            ],
+                            "isAvailable": true,
+                            "name": "Tamaños",
+                            "description": ""
+                        }
+                    ]
+                },
+                {
+                    "img":"https://media-cdn.tripadvisor.com/media/photo-s/15/87/60/9b/pizza-con-masa-a-la-piedra.jpg",
+                    "isAvailable": true,
+                    "ingredients": "Carne deshilachada y queso",
+                    "name": "Carne deshilachada",
+                    "description":null,
+                    "price": {
+                        "ammount": "",
+                        "taxes": "",
+                        "currency": ""
+                    },
+                    "modifierSections": [
+                        {
+                            "modifiers": [
+                                {
+                                    "name": "Personal",
+                                    "price": {
+                                        "ammount": "3000",
+                                        "taxes": "",
+                                        "currency": "CRC"
+                                    },
+                                    "description": "(4 Slices)",
+                                    "isAvailable": true
+                                },
+                                {
+                                    "name": "Pequeña",
+                                    "price": {
+                                        "taxes": "",
+                                        "currency": "CRC",
+                                        "ammount": "4300"
+                                    },
+                                    "description": "(6 slices)"
+                                },
+                                {
+                                    "name": "Mediana",
+                                    "description": "(8 Slices)",
+                                    "isAvailable": true,
+                                    "price": {
+                                        "currency": "CRC",
+                                        "ammount": "8200",
+                                        "taxes": ""
+                                    }
+                                },
+                                {
+                                    "isAvailable": true,
+                                    "description": "(12 Slices)",
+                                    "name": "Grande",
+                                    "price": {
+                                        "ammount": "9200",
+                                        "currency": "CRC",
+                                        "taxes": ""
+                                    }
+                                },
+                                {
+                                    "isAvailable": true,
+                                    "name": "Extra grande",
+                                    "description": "(16 slices)",
+                                    "price": {
+                                        "taxes": "",
+                                        "currency": "CRC",
+                                        "ammount": "11000"
+                                    }
+                                },
+                                {
+                                    "isAvailable": true,
+                                    "name": "Familiar",
+                                    "description": "(20 slices)",
+                                    "price": {
+                                        "currency": "CRC",
+                                        "taxes": "",
+                                        "ammount": "13200"
+                                    }
+                                }
+                            ],
+                            "isAvailable": true,
+                            "name": "Tamaños",
+                            "description": ""
+                        }
+                    ]
+                }
+            ],
+            "footertxt": "",
+            "headerTxt":"Puede ordenar pasta delgada o gruesa en cualquiera de las opciones"
+        },
+        {
+            "name": "Papas fritas",
+            "isAvailable": true,
+            "foods": [
+                {
+                    "img":"https://www.seriouseats.com/2018/04/20180309-french-fries-vicky-wasik-15.jpg",
+                    "isAvailable": true,
+                    "ingredients": "",
+                    "description":null,
+                    "name": "Papas pequeñas",
+                    "price": {
+                        "ammount": "1000",
+                        "taxes": "",
+                        "currency": "CRC"
+                    },
+                    "modifierSections": [ ]
+                },
+                {
+                    "img":"https://www.seriouseats.com/2018/04/20180309-french-fries-vicky-wasik-15.jpg",
+                    "isAvailable": true,
+                    "ingredients": "",
+                    "description":null,
+                    "name": "Papas grandes",
+                    "price": {
+                        "ammount": "1600",
+                        "taxes": "",
+                        "currency": "CRC"
+                    },
+                    "modifierSections": [ ]
+                },
+                {
+                    "img":"https://www.seriouseats.com/2018/04/20180309-french-fries-vicky-wasik-15.jpg",
+                    "isAvailable": true,
+                    "ingredients": "",
+                    "description":null,
+                    "name": "Papas sazonadas grandes",
+                    "price": {
+                        "ammount": "1800",
+                        "taxes": "",
+                        "currency": "CRC"
+                    },
+                    "modifierSections": [ ]
+                },
+                {
+                    "img":"https://www.seriouseats.com/2018/04/20180309-french-fries-vicky-wasik-15.jpg",
+                    "isAvailable": true,
+                    "ingredients": "",
+                    "description":null,
+                    "name": "Papa nachos",
+                    "price": {
+                        "ammount": "4000",
+                        "taxes": "",
+                        "currency": "CRC"
+                    },
+                    "modifierSections": [ ]
+                }
+            ],
+            "footertxt": "",
+            "headerTxt":""
+        },
+        {
+            "name": "Hamburguesas",
+            "isAvailable": true,
+            "foods": [
+                {
+                    "img":"https://canalpizzany.com/wp-content/uploads/2019/06/cheese-burger-and-fries.jpg",
+                    "isAvailable": true,
+                    "ingredients": "",
+                    "description":null,
+                    "name": "Super hamburguesa con papas",
+                    "price": {
+                        "ammount": "3500",
+                        "taxes": "",
+                        "currency": "CRC"
+                    },
+                    "modifierSections": [ ]
+                },
+                {
+                    "img":"https://sifu.unileversolutions.com/image/en-LK/recipe-topvisual/2/1260-709/crispy-fried-chicken-burger-50388014.jpg",
+                    "isAvailable": true,
+                    "ingredients": "",
+                    "description":null,
+                    "name": "Hamburguesa de pollo",
+                    "price": {
+                        "ammount": "2800",
+                        "taxes": "",
+                        "currency": "CRC"
+                    },
+                    "modifierSections": [ ]
+                },
+                {
+                    "img":"https://i.pinimg.com/originals/fd/8d/9b/fd8d9bda36abfe8097b83bea9a8ec333.jpg",
+                    "isAvailable": true,
+                    "ingredients": "",
+                    "description":null,
+                    "name": "Hamburguesa mechada",
+                    "price": {
+                        "ammount": "2800",
+                        "taxes": "",
+                        "currency": "CRC"
+                    },
+                    "modifierSections": [ ]
+                },
+                {
+                    "img":"https://i.pinimg.com/originals/74/f5/70/74f5703b96b6d566d84f1a389ad313fc.jpg",
+                    "isAvailable": true,
+                    "ingredients": "",
+                    "description":null,
+                    "name": "Hamburguesa con papas",
+                    "price": {
+                        "ammount": "2500",
+                        "taxes": "",
+                        "currency": "CRC"
+                    },
+                    "modifierSections": [ ]
+                },
+                {
+                    "img":"https://i.pinimg.com/originals/52/0a/ee/520aee8bdf2a520b2968e15ec26807b7.jpg",
+                    "isAvailable": true,
+                    "ingredients": "",
+                    "description":null,
+                    "name": "Hamburguesa sencilla",
+                    "price": {
+                        "ammount": "1800",
+                        "taxes": "",
+                        "currency": "CRC"
+                    },
+                    "modifierSections": [ ]
+                }
+            ],
+            "footertxt": "",
+            "headerTxt":""
+        },
+        {
+            "name": "Alitas de pollo",
+            "isAvailable": true,
+            "foods": [
+                {
+                    "img":"https://i0.wp.com/www.thefood-e.com/wp-content/uploads/2020/04/IMG_4470-copy.jpg?w=1140",
+                    "isAvailable": true,
+                    "ingredients": "",
+                    "description":null,
+                    "name": "6 alitas",
+                    "price": {
+                        "ammount": "4500",
+                        "taxes": "",
+                        "currency": "CRC"
+                    },
+                    "modifierSections": [ ]
+                },
+                {
+                    "img":"https://i0.wp.com/www.thefood-e.com/wp-content/uploads/2020/04/IMG_4470-copy.jpg?w=1140",
+                    "isAvailable": true,
+                    "ingredients": "",
+                    "description":null,
+                    "name": "12 alitas",
+                    "price": {
+                        "ammount": "7500",
+                        "taxes": "",
+                        "currency": "CRC"
+                    },
+                    "modifierSections": [ ]
+                },
+                {
+                    "img":"https://i0.wp.com/www.thefood-e.com/wp-content/uploads/2020/04/IMG_4470-copy.jpg?w=1140",
+                    "isAvailable": true,
+                    "ingredients": "",
+                    "description":null,
+                    "name": "24 alitas",
+                    "price": {
+                        "ammount": "13500",
+                        "taxes": "",
+                        "currency": "CRC"
+                    },
+                    "modifierSections": [ ]
+                }
+            ],
+            "footertxt": "",
+            "headerTxt":"Escoge tu salsa favorita! Mostaza miel - Buffalo o Barbacoa!"
+        },
+        {
+            "name": "Pollo frito",
+            "isAvailable": true,
+            "foods": [
+                {
+                    "img":"https://images-gmi-pmc.edge-generalmills.com/5a309dca-7495-4628-943b-04ab048e6852.jpg",
+                    "isAvailable": true,
+                    "ingredients": "",
+                    "description":null,
+                    "name": "Porcion muslo - cadera",
+                    "price": {
+                        "ammount": "2200",
+                        "taxes": "",
+                        "currency": "CRC"
+                    },
+                    "modifierSections": [ ]
+                },
+                {
+                    "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRD0WZOr_bfQkKe1nvx9QYHJcUq_vl54--9Xw&usqp=CAU",
+                    "isAvailable": true,
+                    "ingredients": "",
+                    "description":null,
+                    "name": "Porcion pechuga - ala",
+                    "price": {
+                        "ammount": "2400",
+                        "taxes": "",
+                        "currency": "CRC"
+                    },
+                    "modifierSections": [ ]
+                },
+                {
+                    "img":"https://www.freshchefexperience.com/wp-content/uploads/2015/03/34ffa6bf-2868-433a-922a-230424d31d12.jpg",
+                    "isAvailable": true,
+                    "ingredients": "",
+                    "description":null,
+                    "name": "Combo, 6 piezas",
+                    "price": {
+                        "ammount": "5800",
+                        "taxes": "",
+                        "currency": "CRC"
+                    },
+                    "modifierSections": [ ]
+                },
+                {
+                    "img":"https://www.freshchefexperience.com/wp-content/uploads/2015/03/34ffa6bf-2868-433a-922a-230424d31d12.jpg",
+                    "isAvailable": true,
+                    "ingredients": "",
+                    "description":null,
+                    "name": "Combo, 8 piezas",
+                    "price": {
+                        "ammount": "7500",
+                        "taxes": "",
+                        "currency": "CRC"
+                    },
+                    "modifierSections": [ ]
+                },
+                {
+                    "img":"https://www.freshchefexperience.com/wp-content/uploads/2015/03/34ffa6bf-2868-433a-922a-230424d31d12.jpg",
+                    "isAvailable": true,
+                    "ingredients": "",
+                    "description":null,
+                    "name": "Combo, 10 piezas",
+                    "price": {
+                        "ammount": "8900",
+                        "taxes": "",
+                        "currency": "CRC"
+                    },
+                    "modifierSections": [ ]
+                },
+                
+                {
+                    "img":"https://www.freshchefexperience.com/wp-content/uploads/2015/03/34ffa6bf-2868-433a-922a-230424d31d12.jpg",
+                    "isAvailable": true,
+                    "ingredients": "",
+                    "description":null,
+                    "name": "Combo, 15 piezas",
+                    "price": {
+                        "ammount": "13500",
+                        "taxes": "",
+                        "currency": "CRC"
+                    },
+                    "modifierSections": [ ]
+                },
+                {
+                    "img":"https://lh3.googleusercontent.com/CwOYfHxg_08Jw7EfaeqkDGshIjs267M-Ga-8KU4qlqnJKdwPIEWSTFjsSdOT7RO6bKmzLVbdG2nBwB00CAKQ0O64NmqFFnYnxHc73HE=w600-rj-l68-e365",
+                    "isAvailable": true,
+                    "ingredients": "",
+                    "description":null,
+                    "name": "Nuggets de pollo",
+                    "price": {
+                        "ammount": "3800",
+                        "taxes": "",
+                        "currency": "CRC"
+                    },
+                    "modifierSections": [ ]
+                }
+            ],
+            "footertxt": "",
+            "headerTxt":""
+        },
+        {
+            "name": "Entradas frias y calientes",
+            "isAvailable": true,
+            "foods": [
+                {
+                    "img":"https://www.recetas-nicaragua.com/base/stock/Recipe/95-image/95-image_web.jpg",
+                    "isAvailable": true,
+                    "ingredients": "",
+                    "description":null,
+                    "name": "Ceviche de pescado",
+                    "price": {
+                        "ammount": "3800",
+                        "taxes": "",
+                        "currency": "CRC"
+                    },
+                    "modifierSections": [ ]
+                },
+                {
+                    "img":"https://www.laylita.com/recetas/wp-content/uploads/Patacones-o-tostones-caseros.jpg",
+                    "isAvailable": true,
+                    "ingredients": "",
+                    "description":null,
+                    "name": "Patacones",
+                    "price": {
+                        "ammount": "2500",
+                        "taxes": "",
+                        "currency": "CRC"
+                    },
+                    "modifierSections": [ ]
+                },
+                {
+                    "img":"https://recipetineats.com/wp-content/uploads/2019/06/Chicken-Nachos_3.jpg",
+                    "isAvailable": true,
+                    "ingredients": "",
+                    "description": "De pollo o de res",
+                    "name": "Nachos",
+                    "price": {
+                        "ammount": "4000",
+                        "taxes": "",
+                        "currency": "CRC"
+                    },
+                    "modifierSections": [ ]
+                },
+                {
+                    "img":"https://recipetineats.com/wp-content/uploads/2019/06/Chicken-Nachos_3.jpg",
+                    "isAvailable": true,
+                    "ingredients": "",
+                    "description":null,
+                    "name": "Nachos mixtos!",
+                    "price": {
+                        "ammount": "4500",
+                        "taxes": "",
+                        "currency": "CRC"
+                    },
+                    "modifierSections": [ ]
+                },
+                {
+                    "img":"https://i.blogs.es/6630ad/pan-ajo/840_560.jpg",
+                    "isAvailable": true,
+                    "ingredients": "",
+                    "description":null,
+                    "name": "Pan de ajo",
+                    "price": {
+                        "ammount": "2000",
+                        "taxes": "",
+                        "currency": "CRC"
+                    },
+                    "modifierSections": [ ]
+                }
+            ],
+            "footertxt": "",
+            "headerTxt":""
+        },
+        {
+            "name": "Mariscos",
+            "isAvailable": true,
+            "foods": [
+                {
+                    "img":"",
+                    "isAvailable": true,
+                    "ingredients": "",
+                    "description":null,
+                    "name": "Plato mar y tierra",
+                    "price": {
+                        "ammount": "4800",
+                        "taxes": "",
+                        "currency": "CRC"
+                    },
+                    "modifierSections": [ ]
+                },
+                {
+                    "img":"",
+                    "isAvailable": true,
+                    "ingredients": "",
+                    "description":null,
+                    "name": "Arroz marinera",
+                    "price": {
+                        "ammount": "4800",
+                        "taxes": "",
+                        "currency": "CRC"
+                    },
+                    "modifierSections": [ ]
+                },
+                {
+                    "img":"",
+                    "isAvailable": true,
+                    "ingredients": "",
+                    "description": "",
+                    "name": "Filete pescadao cupido, milanesa",
+                    "price": {
+                        "ammount": "3800",
+                        "taxes": "",
+                        "currency": "CRC"
+                    },
+                    "modifierSections": [ ]
+                },
+                {
+                    "img":"",
+                    "isAvailable": true,
+                    "ingredients": "",
+                    "description":null,
+                    "name": "Filete pescado salsa marisco, ajillo, roja o blanca",
+                    "price": {
+                        "ammount": "3800",
+                        "taxes": "",
+                        "currency": "CRC"
+                    },
+                    "modifierSections": [ ]
+                },
+                {
+                    "img":"",
+                    "isAvailable": true,
+                    "ingredients": "",
+                    "description":null,
+                    "name": "Pescado entero robalo o corvina",
+                    "price": {
+                        "ammount": "5000",
+                        "taxes": "",
+                        "currency": "CRC"
+                    },
+                    "modifierSections": [ ]
+                },
+                {
+                    "img":"",
+                    "isAvailable": true,
+                    "ingredients": "",
+                    "description":null,
+                    "name": "Pescado relleno de camaron jumbo",
+                    "price": {
+                        "ammount": "8000",
+                        "taxes": "",
+                        "currency": "CRC"
+                    },
+                    "modifierSections": [ ]
+                },
+                {
+                    "img":"",
+                    "isAvailable": true,
+                    "ingredients": "",
+                    "description":null,
+                    "name": "Sopa marisco Agua o leche",
+                    "price": {
+                        "ammount": "3800",
+                        "taxes": "",
+                        "currency": "CRC"
+                    },
+                    "modifierSections": [ ]
+                },
+                {
+                    "img":"",
+                    "isAvailable": true,
+                    "ingredients": "",
+                    "description":null,
+                    "name": "Salpicon",
+                    "price": {
+                        "ammount": "4500",
+                        "taxes": "",
+                        "currency": "CRC"
+                    },
+                    "modifierSections": [ ]
+                },
+                {
+                    "img":"",
+                    "isAvailable": true,
+                    "ingredients": "",
+                    "description":null,
+                    "name": "Ceviche mixto",
+                    "price": {
+                        "ammount": "4500",
+                        "taxes": "",
+                        "currency": "CRC"
+                    },
+                    "modifierSections": [ ]
+                },
+                {
+                    "img":"",
+                    "isAvailable": true,
+                    "ingredients": "",
+                    "description":null,
+                    "name": "Ceviche camaron",
+                    "price": {
+                        "ammount": "3800",
+                        "taxes": "",
+                        "currency": "CRC"
+                    },
+                    "modifierSections": [ ]
+                },
+                {
+                    "img":"",
+                    "isAvailable": true,
+                    "ingredients": "",
+                    "description":null,
+                    "name": "Colas langosta",
+                    "price": {
+                        "ammount": "7000",
+                        "taxes": "",
+                        "currency": "CRC"
+                    },
+                    "modifierSections": [ ]
+                },
+                {
+                    "img":"",
+                    "isAvailable": true,
+                    "ingredients": "",
+                    "description":null,
+                    "name": "Langosta entera",
+                    "price": {
+                        "ammount": "12000",
+                        "taxes": "",
+                        "currency": "CRC"
+                    },
+                    "modifierSections": [ ]
+                },
+                {
+                    "img":"",
+                    "isAvailable": true,
+                    "ingredients": "",
+                    "description":null,
+                    "name": "Langosta entera camaron",
+                    "price": {
+                        "ammount": "16000",
+                        "taxes": "",
+                        "currency": "CRC"
+                    },
+                    "modifierSections": [ ]
+                },
+                {
+                    "img":"",
+                    "isAvailable": true,
+                    "ingredients": "",
+                    "description":null,
+                    "name": "Filete empanizado",
+                    "price": {
+                        "ammount": "3800",
+                        "taxes": "",
+                        "currency": "CRC"
+                    },
+                    "modifierSections": [ ]
+                },
+                {
+                    "img":"",
+                    "isAvailable": true,
+                    "ingredients": "",
+                    "description":null,
+                    "name": "Filete al ajillo",
+                    "price": {
+                        "ammount": "3800",
+                        "taxes": "",
+                        "currency": "CRC"
+                    },
+                    "modifierSections": [ ]
+                },
+                {
+                    "img":"",
+                    "isAvailable": true,
+                    "ingredients": "",
+                    "description":null,
+                    "name": "Filete a la plancha",
+                    "price": {
+                        "ammount": "3800",
+                        "taxes": "",
+                        "currency": "CRC"
+                    },
+                    "modifierSections": [ ]
+                },
+                {
+                    "img":"",
+                    "isAvailable": true,
+                    "ingredients": "",
+                    "description":null,
+                    "name": "Camarones empanizados",
+                    "price": {
+                        "ammount": "4800",
+                        "taxes": "",
+                        "currency": "CRC"
+                    },
+                    "modifierSections": [ ]
+                },
+                {
+                    "img":"",
+                    "isAvailable": true,
+                    "ingredients": "",
+                    "description":null,
+                    "name": "Camarones con arroz",
+                    "price": {
+                        "ammount": "7800",
+                        "taxes": "",
+                        "currency": "CRC"
+                    },
+                    "modifierSections": [ ]
+                },
+                {
+                    "img":"",
+                    "isAvailable": true,
+                    "ingredients": "",
+                    "description":null,
+                    "name": "Pescado entero",
+                    "price": {
+                        "ammount": "12000",
+                        "taxes": "",
+                        "currency": "CRC"
+                    },
+                    "modifierSections": [ ]
+                },
+                {
+                    "img":"",
+                    "isAvailable": true,
+                    "ingredients": "",
+                    "description":null,
+                    "name": "Pescado relleno con camarones",
+                    "price": {
+                        "ammount": "14500",
+                        "taxes": "",
+                        "currency": "CRC"
+                    },
+                    "modifierSections": [ ]
+                }
+            ],
+            "footertxt": "",
+            "headerTxt":""
+        },
+        {
+            "name": "Cortes de res y pollo",
+            "isAvailable": true,
+            "foods": [
+                {
+                    "img":"https://i.pinimg.com/originals/85/2d/d0/852dd082f6ae59b1c81088b6461e4b2f.jpg",
+                    "isAvailable": true,
+                    "ingredients": "",
+                    "description":null,
+                    "name": "Cordon blue",
+                    "price": {
+                        "ammount": "4600",
+                        "taxes": "",
+                        "currency": "CRC"
+                    },
+                    "modifierSections": [ ]
+                },
+                {
+                    "img":"https://i0.wp.com/commememucho.com/wp-content/uploads/2019/01/IMG_20190113_141704883.jpg",
+                    "isAvailable": true,
+                    "ingredients": "",
+                    "description":null,
+                    "name": "Pollo a la plancha",
+                    "price": {
+                        "ammount": "3800",
+                        "taxes": "",
+                        "currency": "CRC"
+                    },
+                    "modifierSections": [ ]
+                },
+                {
+                    "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTx2pvaBmYVyPfy2Ff1DIxIjJ0IZzccqwf5Xg&usqp=CAU",
+                    "isAvailable": true,
+                    "ingredients": "",
+                    "description": "",
+                    "name": "Lomito",
+                    "price": {
+                        "ammount": "7800",
+                        "taxes": "",
+                        "currency": "CRC"
+                    },
+                    "modifierSections": [ ]
+                }
+            ],
+            "footertxt": "",
+            "headerTxt":""
+        },
+        {
+            "name": "Arroz",
+            "isAvailable": true,
+            "foods": [
+                {
+                    "img":"https://cdn.kiwilimon.com/recetaimagen/26250/th5-640x426-23265.jpg",
+                    "isAvailable": true,
+                    "ingredients": "",
+                    "description":null,
+                    "name": "Camarones",
+                    "price": {
+                        "ammount": "4800",
+                        "taxes": "",
+                        "currency": "CRC"
+                    },
+                    "modifierSections": [ ]
+                },
+                {
+                    "img":"https://img-global.cpcdn.com/recipes/2ae14dc4dbe40a84/1200x630cq70/photo.jpg",
+                    "isAvailable": true,
+                    "ingredients": "",
+                    "description":null,
+                    "name": "Pollo",
+                    "price": {
+                        "ammount": "3800",
+                        "taxes": "",
+                        "currency": "CRC"
+                    },
+                    "modifierSections": [ ]
+                },
+                {
+                    "img":"https://i.ytimg.com/vi/Z6DkVOA7CXM/maxresdefault.jpg",
+                    "isAvailable": true,
+                    "ingredients": "Camaron, pollo y cerdo",
+                    "description": "",
+                    "name": "Tres delicias",
+                    "price": {
+                        "ammount": "4800",
+                        "taxes": "",
+                        "currency": "CRC"
+                    },
+                    "modifierSections": [ ]
+                }
+            ],
+            "footertxt": "",
+            "headerTxt":""
+        },
+        {
+            "name": "Carne de cerdo",
+            "isAvailable": true,
+            "foods": [
+                {
+                    "img":"https://simply-delicious-food.com/wp-content/uploads/2020/06/Sticky-BBQ-ribs-3.jpg",
+                    "isAvailable": true,
+                    "ingredients": "",
+                    "description":null,
+                    "name": "Costilla BBQ 1/4",
+                    "price": {
+                        "ammount": "4600",
+                        "taxes": "",
+                        "currency": "CRC"
+                    },
+                    "modifierSections": [ ]
+                },
+                {
+                    "img":"https://simply-delicious-food.com/wp-content/uploads/2020/06/Sticky-BBQ-ribs-3.jpg",
+                    "isAvailable": true,
+                    "ingredients": "",
+                    "description":null,
+                    "name": "Costilla BBQ 1/2",
+                    "price": {
+                        "ammount": "6500",
+                        "taxes": "",
+                        "currency": "CRC"
+                    },
+                    "modifierSections": [ ]
+                },
+                {
+                    "img":"https://i.ytimg.com/vi/Z6DkVOA7CXM/maxresdefault.jpg",
+                    "isAvailable": true,
+                    "ingredients": "Camaron, pollo y cerdo",
+                    "description": "",
+                    "name": "Tres delicias",
+                    "price": {
+                        "ammount": "4800",
+                        "taxes": "",
+                        "currency": "CRC"
+                    },
+                    "modifierSections": [ ]
+                }
+            ],
+            "footertxt": "",
+            "headerTxt":""
+        },
+        {
+            "name": "Especialidades tipicas",
+            "isAvailable": true,
+            "foods": [
+                {
+                    "img":"https://www.puravidamoms.com/wp-content/uploads/2020/02/costa-rican-chifrijo.jpg",
+                    "isAvailable": true,
+                    "ingredients": "",
+                    "description":null,
+                    "name": "Chifrijo",
+                    "price": {
+                        "ammount": "3900",
+                        "taxes": "",
+                        "currency": "CRC"
+                    },
+                    "modifierSections": [ ]
+                },
+                {
+                    "img":"",
+                    "isAvailable": true,
+                    "ingredients": "",
+                    "description": "4 a 6 personas",
+                    "name": "Surtido",
+                    "price": {
+                        "ammount": "18000",
+                        "taxes": "",
+                        "currency": "CRC"
+                    },
+                    "modifierSections": [ ]
+                },
+                {
+                    "img":"",
+                    "isAvailable": true,
+                    "ingredients": "",
+                    "description": "Con carne al gusto",
+                    "name": "Casado",
+                    "price": {
+                        "ammount": "2800",
+                        "taxes": "",
+                        "currency": "CRC"
+                    },
+                    "modifierSections": [ ]
+                }
+            ],
+            "footertxt": "",
+            "headerTxt":""
+        },
+        {
+            "name": "Spaguetti",
+            "isAvailable": true,
+            "foods": [
+                {
+                    "img":"https://cdn6.recetasdeescandalo.com/wp-content/uploads/2019/05/Spaguetti-a-la-bolonesa-una-receta-de-pasta-para-triunfar.jpg",
+                    "isAvailable": true,
+                    "ingredients": "",
+                    "description":null,
+                    "name": "Supremo, pollo, carne o jamon",
+                    "price": {
+                        "ammount": "",
+                        "taxes": "",
+                        "currency": "CRC"
+                    },
+                    "modifierSections": [
+                        {
+                            "modifiers": [
+                                {
+                                    "name": "Pequeño",
+                                    "price": {
+                                        "taxes": "",
+                                        "currency": "CRC",
+                                        "ammount": "3000"
+                                    },
+                                    "description": ""
+                                },
+                                {
+                                    "isAvailable": true,
+                                    "description": "",
+                                    "name": "Grande",
+                                    "price": {
+                                        "ammount": "3500",
+                                        "currency": "CRC",
+                                        "taxes": ""
+                                    }
+                                }
+                            ],
+                            "isAvailable": true,
+                            "name": "Tamaños",
+                            "description": ""
+                        }
+                        ]
+                },
+                {
+                    "img":"https://cdn6.recetasdeescandalo.com/wp-content/uploads/2019/05/Spaguetti-a-la-bolonesa-una-receta-de-pasta-para-triunfar.jpg",
+                    "isAvailable": true,
+                    "ingredients": "",
+                    "name": "Con camaron",
+                    "price": {
+                        "ammount": "4800",
+                        "taxes": "",
+                        "currency": "CRC"
+                    },
+                    "modifierSections": [ ]
+                },
+                {
+                    "img":"https://cdn6.recetasdeescandalo.com/wp-content/uploads/2019/05/Spaguetti-a-la-bolonesa-una-receta-de-pasta-para-triunfar.jpg",
+                    "isAvailable": true,
+                    "ingredients": "",
+                    "name": "Salsa blanca con pollo",
+                    "price": {
+                        "ammount": "4800",
+                        "taxes": "",
+                        "currency": "CRC"
+                    },
+                    "modifierSections": [ ]
+                }
+            ],
+            "footertxt": "",
+            "headerTxt":""
+        },
+        {
+            "name": "Tacos",
+            "isAvailable": true,
+            "foods": [
+                {
+                    "img":"https://www.liveincostarica.com/blog/wp-content/uploads/2015/01/tacos-ticos.jpg",
+                    "isAvailable": true,
+                    "ingredients": "",
+                    "description":null,
+                    "name": "Super taco",
+                    "price": {
+                        "ammount": "2000",
+                        "taxes": "",
+                        "currency": "CRC"
+                    },
+                    "modifierSections": [ ]
+                },
+                {
+                    "img":"https://www.liveincostarica.com/blog/wp-content/uploads/2015/01/tacos-ticos.jpg",
+                    "isAvailable": true,
+                    "ingredients": "",
+                    "name": "Super taco con papas",
+                    "price": {
+                        "ammount": "2200",
+                        "taxes": "",
+                        "currency": "CRC"
+                    },
+                    "modifierSections": [ ]
+                }
+            ],
+            "footertxt": "",
+            "headerTxt":""
+        },
+        {
+            "name": "Chalupas",
+            "isAvailable": true,
+            "foods": [
+                {
+                    "img":"https://static.wixstatic.com/media/e25318_4eb5cfb665d24ed097f98edbd9381965~mv2.jpg/v1/fill/w_712,h_356,al_c,q_90/e25318_4eb5cfb665d24ed097f98edbd9381965~mv2.jpg",
+                    "isAvailable": true,
+                    "ingredients": "",
+                    "description":null,
+                    "name": "Pollo",
+                    "price": {
+                        "ammount": "3000",
+                        "taxes": "",
+                        "currency": "CRC"
+                    },
+                    "modifierSections": [ ]
+                },
+                {
+                    "img":"https://static.wixstatic.com/media/e25318_4eb5cfb665d24ed097f98edbd9381965~mv2.jpg/v1/fill/w_712,h_356,al_c,q_90/e25318_4eb5cfb665d24ed097f98edbd9381965~mv2.jpg",
+                    "isAvailable": true,
+                    "ingredients": "",
+                    "name": "Carne",
+                    "price": {
+                        "ammount": "3000",
+                        "taxes": "",
+                        "currency": "CRC"
+                    },
+                    "modifierSections": [ ]
+                }
+            ],
+            "footertxt": "",
+            "headerTxt":""
+        },
+        {
+            "name": "Quesadillas",
+            "isAvailable": true,
+            "foods": [
+                {
+                    "img":"https://www.afamilyfeast.com/wp-content/uploads/2020/06/quesadillas-3.jpg",
+                    "isAvailable": true,
+                    "ingredients": "",
+                    "description":null,
+                    "name": "Carne",
+                    "price": {
+                        "ammount": "3300",
+                        "taxes": "",
+                        "currency": "CRC"
+                    },
+                    "modifierSections": [ ]
+                },
+                {
+                    "img":"https://www.afamilyfeast.com/wp-content/uploads/2020/06/quesadillas-3.jpg",
+                    "isAvailable": true,
+                    "ingredients": "",
+                    "name": "Pollo",
+                    "price": {
+                        "ammount": "3300",
+                        "taxes": "",
+                        "currency": "CRC"
+                    },
+                    "modifierSections": [ ]
+                }
+            ],
+            "footertxt": "",
+            "headerTxt":""
+        },
+        {
+            "name": "Sandwiches",
+            "isAvailable": true,
+            "foods": [
+                {
+                    "img":"https://c.ndtvimg.com/2019-03/rlh4rojo_protein-rich-sandwich-ideas_625x300_04_March_19.jpg",
+                    "isAvailable": true,
+                    "ingredients": "",
+                    "description":null,
+                    "name": "Carne",
+                    "price": {
+                        "ammount": "3000",
+                        "taxes": "",
+                        "currency": "CRC"
+                    },
+                    "modifierSections": [ ]
+                },
+                {
+                    "img":"https://c.ndtvimg.com/2019-03/rlh4rojo_protein-rich-sandwich-ideas_625x300_04_March_19.jpg",
+                    "isAvailable": true,
+                    "ingredients": "",
+                    "name": "Pollo",
+                    "price": {
+                        "ammount": "3000",
+                        "taxes": "",
+                        "currency": "CRC"
+                    },
+                    "modifierSections": [ ]
+                }
+            ],
+            "footertxt": "",
+            "headerTxt":""
+        }
+    ],
+    "startTime": "00:00",
+    "id": "0",
+    "footerTxt": "POSTRES: ₡1,500",
+    "type": "WEB",
+    "isDark": true
+}
