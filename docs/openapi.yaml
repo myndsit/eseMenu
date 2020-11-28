@@ -107,6 +107,8 @@ components:
           type: boolean
         footerTxt:
           type: string
+        headerTxt:
+          type: string
         foods:
           type: array
           items:
